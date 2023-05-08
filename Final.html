@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html>
+   <head> 
+	<!--metadata: tab name-->
+	<title>Final</title>
+
+	<!--links: .js, jQuert, and css link-->
+	<script src="Final.js"></script>
+	<script src="http://code.jquery.com/jquery-3.5.1.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="Final.css"/>
+   </head>
+
+<!--body: h2 title, divRegistered, and divMain with login, pw, pw again, email, email again, submit-->
+   <body>
+	<h2 class="container">Form Validation with JavaScript/jQuery</h2>
+	<div class="container" id="divErr"></div>
+	<div class="container" id="divRegistered"></div>
+	<div class="container" id="divMain">
+	<form action="Final.html" method="get" name="frmRegister" id="frmRegister">
+	<table>
+	<tr><td>Login</td>
+	    <td><input type="text" name="Login" id="txtLogin" />&nbsp;<span id="spnLogin"></span></td>
+	</tr>
+	<tr><td>Password</td>
+	    <td><input type="password" id="txtPassword" />&nbsp;<span id="spnPasswordComplexity"></span></td>
+	</tr>
+	<tr><td>Confirm Password</td>
+	    <td><input type="password" id="txtConfirmPassword" />&nbsp;<span id="spnPasswordCompare"></span></td>
+	</tr>
+	<tr><td>Email</td>
+	    <td><input type="text" id="txtEmail" />&nbsp;<span id="spnEmail"></span></td>
+	</tr>
+	<tr><td>Confirm Email</td>
+	    <td><input type="text" id="txtConfirmEmail" />&nbsp;<span id="spnEmailCompare"></span></td>
+	</tr>
+	<tr>
+	    <td colspan="2"><input type="submit" id="btnRegister" value="Register"/></td>
+	</tr>
+	</table>
+	</form>
+	</div>
+   </body>
+</html>

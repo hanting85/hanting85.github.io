@@ -1,0 +1,27 @@
+#divRegistered{
+	height: 100px;
+	width: 600px;
+	background-color: tan;
+	color: black;
+	font-size: 20px;
+	display: none;	
+}
+tr{
+	height: 40px;
+}
+.container {
+    background-color: #222;
+    color: #fff;
+    margin: 20px auto;
+    overflow: hidden;
+    padding: 20px;
+    position: relative;
+    width: 600px;
+}
+form {
+    background-color: #555;
+    display: block;
+    padding: 15px;
+}
+
+
