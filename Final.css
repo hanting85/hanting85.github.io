@@ -1,7 +1,7 @@
 #divRegistered {
 	height:100px; width:600px; 
 	background-color:tan; color:black;
-	font:"Times New Roman"; font-size:16px; 
+	font:"Times New Roman"; font-size:12px; 
 	display:none; }
 
 #divErr {
